@@ -35,16 +35,73 @@ Esta entrega trata da expansão da FarmTech Solutions para a área de visão com
 
 ## Vídeo explicativo
 
-> - [FIAP / FarmTech Solutions - Módulo 6](https://www.youtube.com/watch?v=1H88-qi-KX8)
+> - [FIAP / FarmTech Solutions - Módulo 6 ```FIAP_mod6_computer_vision_POC.mp4```](https://youtu.be/FcE0em6Fmqc)
 
 
 ## Visão geral
 
-Todas as informações relativas à construção da POC e aos achados do projeto estão descritas no [notebook do projeto]()
+Todas as informações relativas à construção da POC e aos achados do projeto estão descritas no [notebook do projeto](src/Computer_Vision_Cap1.ipynb)
 
-## Conclusão
+## Evidências
 
-.
+### Dataset Xícaras
+
+#### Evidências de treinamento
+
+![Treinamento finalizado - 50 epocas](assets/Treinamento%20-%2050%20epocas.png)
+*<center><sub>Xícaras - Treinamento finalizado - 50 epocas</sub></center>*
+
+#### Evidências de teste
+
+![Teste finalizado - 50 epocas](assets/Teste%20Finalizado%20-%2050%20epocas.png)
+*<center><sub>Xícaras - Teste finalizado - 50 epocas</sub></center>*
+
+#### Imagens de teste
+
+![Imagem de teste 1](assets/xicara%201%20-%20Teste.png)
+*<center><sub>Xícaras - Imagem de teste 1</sub></center>*
+
+![Imagem de teste 2](assets/xicara%202%20-%20Teste.png)
+*<center><sub>Xícaras - Imagem de teste 2</sub></center>*
+
+![Imagem de teste 3](assets/xicara%203%20-%20Teste.png)
+*<center><sub>Xícaras - Imagem de teste 3</sub></center>*
+
+![Imagem de teste 4](assets/xicara%204%20-%20Teste.png)
+*<center><sub>Xícaras - Imagem de teste 4</sub></center>*
+
+![Imagem de teste 5](assets/xicara%205%20-%20Teste.png)
+*<center><sub>Xícaras - Imagem de teste 5</sub></center>*
+
+
+### Dataset Chaves
+
+#### Evidências de treinamento
+
+![Treinamento finalizado - 25 epocas](assets/Treinamento%20-%2025%20epocas.png)
+*<center><sub>Chaves - Treinamento finalizado - 25 epocas</sub></center>*
+
+#### Evidências de teste
+
+![Teste finalizado - 50 epocas](assets/Chaves%20-%20Teste%20Finalizado%20-%2050%20epocas.jpeg)
+*<center><sub>Chaves - Teste finalizado - 50 epocas</sub></center>*
+
+#### Imagens de teste
+
+![Imagem de teste 1](assets/Chave%201%20-%20Teste.png)
+*<center><sub>Chaves - Imagem de teste 1</sub></center>*
+
+![Imagem de teste 2](assets/Chave%202%20-%20Teste.png)
+*<center><sub>Chaves - Imagem de teste 2</sub></center>*
+
+![Imagem de teste 3](assets/Chave%203%20-%20Teste.pngg)
+*<center><sub>Chaves - Imagem de teste 3</sub></center>*
+
+![Imagem de teste 4](assets/Chave%204%20-%20Teste.png)
+*<center><sub>Chaves - Imagem de teste 4</sub></center>*
+
+![Imagem de teste 5](assets/Chave%205%20-%20Teste.png)
+*<center><sub>Chaves - Imagem de teste 5</sub></center>*
 
 
 **Grupo TiãoTech**
@@ -53,19 +110,9 @@ Todas as informações relativas à construção da POC e aos achados do projeto
 
 ### 📁 Estrutura de pastas
 
-Dentre os arquivos e pastas presentes na raiz do sprint 3, definem-se:
+Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 - **assets**: imagens.
-
-- **data/database**: script SQL do banco de dados.
-
-- **data/ingest**: dataset para treinamnto dos modelos
-
-- **data/predict** - dataset para predições
-
-- **models**: Modelos de ML treinados
-
-- **sensors_wokwi**: Daods do projeto do computador de borda.
 
 - **src**: Código fonte da aplicação
 
